@@ -1,14 +1,11 @@
-list_of_fruits = input("list of fruits:")
+list = ["wako sumabot"]
+user = input("you want to cear the list:")
 
 
+if user == "yes":
+    list.clear()
+    print(list)
 
-if list_of_fruits == "banana":
-    print( "hellow banana")
-
-elif list_of_fruits == "apple":
-    print("hellown apple")
-
-else:
-    print("No")
-
+elif user == "No":
+    print(list)
 

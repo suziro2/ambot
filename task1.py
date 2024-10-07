@@ -1,9 +1,9 @@
-fav_fruits = input("How many fruits you like: ")
+user = int(input("how many numbers : "))
 
-my_fruits = []
+my_num = []
 
-for i in fav_fruits:
-    fruits = input("Enter fruits:")
-    my_fruits.append(fruits)
+for i in range(user):
+    number = int(input("Enter a number: "))
+    my_num.append(number)
 
-print(my_fruits)    
+print(my_num)  
